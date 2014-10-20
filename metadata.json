@@ -1,0 +1,21 @@
+{
+    "name": "gajdaw-sinatra",
+    "version": "0.1.0",
+    "source": "https://github.com/pro-vagrant/puppet-sinatra",
+    "author": "Włodzimierz Gajda",
+    "license": "MIT",
+    "project_page": "https://github.com/pro-vagrant/puppet-sinatra",
+    "summary": "The module to install sinatra",
+    "operatingsystem_support": [
+      {
+        "operatingsystem": "Ubuntu",
+        "operatingsystemrelease": [
+          "12.04"
+        ]
+      }
+    ],
+    "requirements": [
+      { "name": "puppet", "version_requirement": "3.x" }
+    ],
+    "dependencies": []
+}

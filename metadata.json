@@ -1,10 +1,10 @@
 {
     "name": "gajdaw-sinatra",
     "version": "0.1.0",
-    "source": "https://github.com/pro-vagrant/puppet-sinatra",
+    "source": "https://github.com/puppet-by-examples/puppet-sinatra",
     "author": "Włodzimierz Gajda",
     "license": "MIT",
-    "project_page": "https://github.com/pro-vagrant/puppet-sinatra",
+    "project_page": "https://github.com/puppet-by-examples/puppet-sinatra",
     "summary": "The module to install sinatra",
     "operatingsystem_support": [
       {

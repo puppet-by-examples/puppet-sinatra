@@ -1,26 +1,34 @@
 {
-    "name": "gajdaw-sinatra",
-    "version": "0.1.0",
-    "source": "https://github.com/puppet-by-examples/puppet-sinatra",
-    "author": "Włodzimierz Gajda",
-    "license": "MIT",
-    "project_page": "https://github.com/puppet-by-examples/puppet-sinatra",
-    "summary": "The module to install sinatra",
-    "operatingsystem_support": [
-      {
-        "operatingsystem": "Ubuntu",
-        "operatingsystemrelease": [
-          "12.04"
-        ]
-      }
-    ],
-    "requirements": [
-      { "name": "puppet", "version_requirement": "3.x" }
-    ],
-    "dependencies": [
-      {
-        "name": "gajdaw/diverse_functions",
-        "version_requirement": ">=0.1.1"
-      }
-    ]
+  "name": "gajdaw-sinatra",
+  "version": "0.1.0",
+  "author": "Włodzimierz Gajda",
+  "summary": "The module to install sinatra",
+  "license": "MIT",
+  "source": "https://github.com/puppet-by-examples/puppet-sinatra",
+  "project_page": "https://github.com/puppet-by-examples/puppet-sinatra",
+  "issues_url": "https://github.com/puppet-by-examples/puppet-sinatra/issues",
+  "tags": [
+    "sinatra",
+    "framework",
+    "install",
+    "gem",
+    "ruby"
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "12.04"
+      ]
+    }
+  ],
+  "requirements": [
+    { "name": "puppet", "version_requirement": "3.x" }
+  ],
+  "dependencies": [
+    {
+      "name": "gajdaw/diverse_functions",
+      "version_requirement": ">=0.1.1"
+    }
+  ]
 }

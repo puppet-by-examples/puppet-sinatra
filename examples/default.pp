@@ -1,6 +1,6 @@
 #
-# sudo puppet apply /vagrant/modules/puppet-java/examples/default.pp
-# sudo puppet apply -e 'include java'
+# sudo puppet apply /etp/puppet/modules/sinatra/examples/default.pp
+# sudo puppet apply -e 'include sinatra'
 #
 
-include java
+include sinatra

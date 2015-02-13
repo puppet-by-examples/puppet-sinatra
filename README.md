@@ -1,9 +1,33 @@
-#sinatra module
+# Puppet Module
+# `gajdaw/sinatra`
 
-The module to install sinatra.
+#### Table of Contents
 
-The module was tested in:
+1. [Overview](#overview)
+2. [Setup](#setup)
+3. [Usage](#usage)
 
-* ubuntu 12.04 (precise32 Vagrant box)
+## 1. Overview
 
+The module to install Sinatra framework.
 
+## 2. Setup
+
+To install the module run:
+
+    sudo puppet install module gajdaw-sinatra
+
+## 3. Usage
+
+You can apply sinatra class running the following command:
+
+    sudo puppet apply -e 'include sinatra'
+
+You can also use the example manifest `default.pp`:
+
+    sudo puppet apply /etp/puppet/modules/sinatra/examples/default.pp
+
+## Limitations
+
+You will find the exact information about supported platforms
+in `metadata.json` file.

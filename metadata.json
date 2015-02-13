@@ -1,6 +1,6 @@
 {
   "name": "gajdaw-sinatra",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Włodzimierz Gajda",
   "summary": "The module to install sinatra",
   "license": "MIT",

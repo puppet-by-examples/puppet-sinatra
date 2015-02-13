@@ -1,3 +1,8 @@
+# Class: sinatra
+#
+# This class installs sinatra framework
+#
+
 class sinatra {
 
     # validate_platform() function comes from

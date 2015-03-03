@@ -2,7 +2,7 @@
   "name": "gajdaw-sinatra",
   "version": "0.2.0",
   "author": "Włodzimierz Gajda",
-  "summary": "The module to install sinatra",
+  "summary": "Puppet module to install Sinatra",
   "license": "MIT",
   "source": "https://github.com/puppet-by-examples/puppet-sinatra",
   "project_page": "https://github.com/puppet-by-examples/puppet-sinatra",

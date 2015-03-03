@@ -24,12 +24,12 @@ class sinatra {
     ]}
 
     exec { 'sinatra:install':
-        command => "gem install sinatra",
+        command => 'gem install sinatra',
         timeout => 6000,
     }
 
     exec { 'sinatra:thin':
-        command => "gem install thin",
+        command => 'gem install thin',
     }
 
 }
